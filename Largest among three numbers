@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter your first  number  : ");
+        System.out.println("Enter your Second  number  : ");
+        System.out.println("Enter your third  number  : ");
+        
+        int number1 = input.nextInt();
+        int number2= input.nextInt();
+        int number3= input.nextInt();
+        
+        if(number1>number2){
+            System.out.println("The first number is larger ");
+        }
+            
+        else if (number2>number3){
+           System.out.println("The second number is larger ");
+          
+           
+       }
+       else if(number3>number1){
+            System.out.println("The third number is larger ");
+           
+       }
+        
+    }
+}
